@@ -59,10 +59,11 @@ public class AutoHideTabsView extends RelativeLayout {
         mTabContainer = new TabPageIndicator(context, attrs);
 		mViewPager = new ViewPager(context, attrs);
 		mViewPager.setId(R.id.pager);
-		mViewPager.setOnPageChangeListener(new OnPageChangeListener() {
+		mTabContainer.setOnPageChangeListener(new OnPageChangeListener() {
 			
 			@Override
 			public void onPageSelected(int position) {
+				Log.d(TAG, "onPageSelected: " + mTabContainer.getTranslationY());
 				if (mTabContainer.getTranslationY() < 0) {
 					mTabContainer.setTranslationY(0);
 				}
