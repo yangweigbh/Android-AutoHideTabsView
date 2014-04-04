@@ -3,7 +3,7 @@
 
 AutoHideTabsView give you an easy way to add a auto hide tabs view so that the vision of user get wider
 
-
+![](https://raw.githubusercontent.com/yangweigbh/Android-AutoHideTabsView/master/screenshot.gif)
 ---
 
 ## Supported Views
