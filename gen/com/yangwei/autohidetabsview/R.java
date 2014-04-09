@@ -396,15 +396,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int default_underline_indicator_fade_length=0x7f070004;
     }
     public static final class layout {
-        public static final int activity_main=0x7f030000;
+        public static final int activity_tab_alpha=0x7f030000;
+        public static final int activity_tab_translation=0x7f030001;
     }
     public static final class menu {
         public static final int main=0x7f0b0000;
+        public static final int samples_list=0x7f0b0001;
+        public static final int tab_translation=0x7f0b0002;
     }
     public static final class string {
-        public static final int action_settings=0x7f0a0001;
-        public static final int app_name=0x7f0a0000;
-        public static final int hello_world=0x7f0a0002;
+        public static final int action_settings=0x7f0a0000;
+        public static final int alpha_sample=0x7f0a0003;
+        public static final int app_name=0x7f0a0004;
+        public static final int hello_world=0x7f0a0001;
+        public static final int title_activity_samples_list=0x7f0a0002;
+        public static final int title_activity_tab_translation=0x7f0a0005;
     }
     public static final class style {
         /** 

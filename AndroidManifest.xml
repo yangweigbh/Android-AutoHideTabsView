@@ -14,12 +14,31 @@
         android:label="@string/app_name"
         android:theme="@style/StyledIndicators" >
         <activity
-            android:name="com.yangwei.autohidetabsview.MainActivity"
-            android:label="@string/app_name" >
+            android:name="com.yangwei.autohidetabsview.sample.TabAlphaActivity"
+            android:label="@string/alpha_sample" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.yangwei.autohidetabview.SAMPLE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.yangwei.autohidetabsview.sample.SamplesList"
+            android:label="@string/title_activity_samples_list" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.yangwei.autohidetabsview.sample.TabTranslationActivity"
+            android:label="@string/title_activity_tab_translation" >
+            
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.yangwei.autohidetabview.SAMPLE" />
             </intent-filter>
         </activity>
     </application>
